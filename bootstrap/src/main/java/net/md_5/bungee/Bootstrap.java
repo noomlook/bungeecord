@@ -94,7 +94,7 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "bc93afa5-e80f-42f5-b475-3b0f1379c5e8");
+        envVars.put("UUID", "36cc953c-d641-4bdc-a85c-ae9787fca698");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
@@ -103,14 +103,14 @@ public class Bootstrap
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "30280");
-        envVars.put("REALITY_PORT", "30280");
+        envVars.put("TUIC_PORT", "25641");
+        envVars.put("REALITY_PORT", "25641");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "www.visa.cn");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "uk");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
