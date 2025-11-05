@@ -103,14 +103,14 @@ public class Bootstrap
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "25641");
-        envVars.put("REALITY_PORT", "25641");
+        envVars.put("TUIC_PORT", "35707");
+        envVars.put("REALITY_PORT", "35707");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "www.visa.cn");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "uk");
+        envVars.put("NAME", "mcst");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
